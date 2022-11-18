@@ -1,0 +1,10 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "esbuild": "esbuild app.js --bundle --watch --sourcemap --outdir=dist"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.14",
+    "three": "^0.146.0"
+  }
+}
